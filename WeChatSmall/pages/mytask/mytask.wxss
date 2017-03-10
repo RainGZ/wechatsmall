@@ -1,0 +1,10 @@
+.mytasklist{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 200px
+}
+.content{
+     color: #8B0000;
+     font-size: 40px;
+}

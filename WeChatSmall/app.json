@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/mytask/mytask",
+    "pages/myreport/myreport",
+    "pages/myself/myself"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#808080",
+    "navigationBarTitleText": "唯沃客",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/mytask/mytask",
+      "text": "我的任务",
+      "iconPath": "images/tabbar/mytask_unselected.png",
+      "selectedIconPath": "images/tabbar/mytask_selected.png"
+    },{
+      "pagePath":"pages/myreport/myreport",
+      "text":"我的报表",
+      "iconPath":"images/tabbar/myreport_unselected.png",
+      "selectedIconPath":"images/tabbar/myreport_selected.png"
+    },{
+      "pagePath":"pages/myself/myself",
+      "text":"我",
+      "iconPath":"images/tabbar/myself_unselected.png",
+      "selectedIconPath":"images/tabbar/myself_selected.png"
+      }]
+  },
+  "networkTimeout": {
+    "request": 1000,
+    "connectSocket": 1000,
+    "uploadFile": 1000,
+    "downloadFile": 1000
+  },
+   "debug":true
+}

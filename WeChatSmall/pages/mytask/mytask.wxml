@@ -1,0 +1,3 @@
+<view class = "mytasklist"> 
+     <text class ="content">{{content}}</text>
+ </view>

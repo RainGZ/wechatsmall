@@ -1,0 +1,3 @@
+<view class = "myreport"> 
+     <text class ="content">{{content}}</text>
+ </view>

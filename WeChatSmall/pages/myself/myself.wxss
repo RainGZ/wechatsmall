@@ -1,0 +1,10 @@
+.myself{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 200px
+}
+.content{
+     color:#778899;
+     font-size: 40px;
+}

@@ -1,0 +1,10 @@
+.myreport{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 200px
+}
+.content{
+     color: #3CB371;
+     font-size: 40px;
+}
